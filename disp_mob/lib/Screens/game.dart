@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:disp_mob/Screens/home.dart';
 import 'package:disp_mob/Screens/chat.dart';
 
 class GameScreen extends StatefulWidget {
@@ -14,7 +12,7 @@ class _GameScreenState extends State<GameScreen>{
 
   Widget build(BuildContext context){
     return Scaffold(
-      appBar: AppBar(//provisional mentre posem el joc amb firebase per saber a quine finestra som
+      appBar: AppBar(//provisional mentre posem el joc amb firebase per saber a quina finestra som
         title: Text('Game'),
         centerTitle: true,
     ),

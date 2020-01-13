@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:disp_mob/Screens/game.dart';
 import 'package:disp_mob/background.dart';
 import 'package:disp_mob/Screens/credits.dart';
@@ -46,7 +45,7 @@ class _HomeScreenState extends State<HomeScreen>{
           
           ),
           alignment: Alignment.center,
-          margin: EdgeInsets.all(20),
+          //margin: EdgeInsets.all(0),
       ),  
     
       //new Image.asset("assets/chohanhome.jpg"),
