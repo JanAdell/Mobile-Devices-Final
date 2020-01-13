@@ -6,10 +6,10 @@ In this project we have implemented the classical japanese gambling game Cho Han
 
 ## Students:
 
-**Guillem Sánchez:
+**Guillem Sánchez**:
 > https://github.com/GuillemSanchez
 
-**Jan Adell Mill:
+**Jan Adell Mill**:
 > https://github.com/JanAdell
 
 ### Project's GitHub Repository 
