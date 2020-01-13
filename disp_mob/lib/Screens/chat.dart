@@ -14,7 +14,7 @@ class _ChatScreenState extends State<ChatScreen>{
   Widget build(BuildContext context){
     return Scaffold(
       appBar: AppBar(
-        title: Text('Chat', style: TextStyle(fontSize: 20),),
+        title: Text('Chat', style: TextStyle(fontSize: 50),),//provisional mentre posem el joc amb firebase per saber a quine finestra som
         centerTitle: true,
     ),
     

@@ -14,7 +14,7 @@ class _GameScreenState extends State<GameScreen>{
 
   Widget build(BuildContext context){
     return Scaffold(
-      appBar: AppBar(
+      appBar: AppBar(//provisional mentre posem el joc amb firebase per saber a quine finestra som
         title: Text('Game'),
         centerTitle: true,
     ),
