@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:disp_mob/Screens/game.dart';
 import 'package:disp_mob/background.dart';
 import 'package:disp_mob/Screens/credits.dart';
+import 'dart:io';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -83,11 +84,11 @@ class _HomeScreenState extends State<HomeScreen>{
                     splashColor: Colors.black,
                     padding: EdgeInsets.symmetric(vertical: 20, horizontal: 40),
         
-                    onPressed: ()
-                    {
+                    onPressed: ()=>exit(0),
+                    /*{
                     Navigator.push(context, MaterialPageRoute(builder: (context) => CreditsScreen()),
                     );
-                    },
+                    },*/
                     ),             
 
       ],
