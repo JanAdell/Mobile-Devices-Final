@@ -14,7 +14,7 @@ class _CreditsScreenState extends State<CreditsScreen>{
     return Scaffold(
       appBar: AppBar(
         title: Text('Credits', style: TextStyle(fontSize: 50),),
-        backgroundColor: Colors.orangeAccent,
+        backgroundColor: Colors.blueGrey,
         centerTitle: true,
     ),
     

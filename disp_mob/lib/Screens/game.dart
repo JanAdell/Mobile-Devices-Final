@@ -12,22 +12,13 @@ class _GameScreenState extends State<GameScreen>{
 
   Widget build(BuildContext context){
     return Scaffold(
-      appBar: AppBar(//provisional mentre posem el joc amb firebase per saber a quina finestra som
-        title: Text('Game'),
+      appBar: AppBar(//provisional name used while the window is being worked on 
+        title: Text('Chō-han', style: TextStyle(fontSize: 50),),
         centerTitle: true,
+        backgroundColor: Colors.blueGrey,
+        
     ),
-    body: DecoratedBox(
-      
-      position: DecorationPosition.background,
-              decoration: BoxDecoration(
-                color: Colors.white, 
-                image: DecorationImage(
-                    image: AssetImage('assets/bgi.jpg'),
-                    fit: BoxFit.cover),
-              ),
-    child: null,
-    ),
-    
+        
     );
     
   }
