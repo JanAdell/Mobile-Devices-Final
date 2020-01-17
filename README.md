@@ -2,7 +2,7 @@
 
 Respository dedicated to the final project of the Mobile Devices subject (CITM-GDDV)
 
-In this project we have implemented the classical japanese gambling game Cho Han into an Android App. 
+In this project we have implemented the classical japanese gambling game Chō-han into an Android App. 
 
 ## Students:
 
