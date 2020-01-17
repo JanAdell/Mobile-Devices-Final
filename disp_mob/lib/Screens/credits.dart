@@ -18,21 +18,25 @@ class _CreditsScreenState extends State<CreditsScreen>{
         centerTitle: true,
     ),
     
-    body: Container(
+    body: DecoratedBox(
+      
+      position: DecorationPosition.background,
+              decoration: BoxDecoration(
+                color: Colors.white, 
+                image: DecorationImage(
+                    image: AssetImage('assets/bgi.jpg'),
+                    fit: BoxFit.cover),
+              ),
 
-    child: new Column(
-      
-      
-      //crossAxisAlignment: CrossAxisAlignment.end,
-      //mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+    child: Column(
+       
       children: <Widget>[
-     
-      
-      new Container(
+          
+      Container(
           
           child: Text("Created By Guillem Sánchez and Jan Adell", style: 
-          new TextStyle(
-              color: Colors.lightBlueAccent,
+          TextStyle(
+              color: Colors.black,
               fontWeight: FontWeight.w600,
               fontSize: 30.0,
               
@@ -43,7 +47,7 @@ class _CreditsScreenState extends State<CreditsScreen>{
           margin: EdgeInsets.fromLTRB(10, 40, 10, 10),
       ), 
       
-      new Container(
+      Container(
         
           child: Text('This App was created as final project for the '
                       ' Mobile Devices subject in the Videogame Design '
@@ -51,8 +55,8 @@ class _CreditsScreenState extends State<CreditsScreen>{
                       ' implement a classic Japanese gambling game called '
                       ' Cho Han in the form of a mobile Android App. ', 
           style: 
-          new TextStyle(
-              color: Colors.lightBlueAccent,
+          TextStyle(
+              color: Colors.black,
               fontWeight: FontWeight.w600,
               fontSize: 30.0,
               
@@ -62,13 +66,13 @@ class _CreditsScreenState extends State<CreditsScreen>{
           alignment: Alignment.center,
           margin: EdgeInsets.all(20),
       ),  
-      new Container(
+      Container(
         
           child: Text('Press the button below to go to our GitHub Repository '
                       ' where you can find the making process and code. ',
           style: 
-          new TextStyle(
-              color: Colors.lightBlueAccent,
+          TextStyle(
+              color: Colors.black,
               fontWeight: FontWeight.w600,
               fontSize: 30.0,
               
@@ -79,10 +83,10 @@ class _CreditsScreenState extends State<CreditsScreen>{
           margin: EdgeInsets.all(20),
       ),
 
-      new Container(
-      child: new RaisedButton(
+      Container(
+      child: RaisedButton(
         onPressed: _launchURL,
-        child: new Text('To GitHub Repository', style: TextStyle(fontSize: 40),),
+        child: Text('To GitHub Repository', style: TextStyle(fontSize: 40),),
         color: Colors.blueGrey,
         splashColor: Colors.black,
         

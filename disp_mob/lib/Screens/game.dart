@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:disp_mob/Screens/chat.dart';
+
 
 class GameScreen extends StatefulWidget {
   @override
@@ -16,18 +16,18 @@ class _GameScreenState extends State<GameScreen>{
         title: Text('Game'),
         centerTitle: true,
     ),
-    body: FloatingActionButton(
-        child: Text('Chat', style: TextStyle(fontSize: 15),),
-        //color: Colors.blueGrey,       
-        splashColor: Colors.black,
-        //padding: EdgeInsets.symmetric(vertical: 20, horizontal: 40),
-        
-        onPressed: ()
-        {
-          Navigator.push(context, MaterialPageRoute(builder: (context) => ChatScreen()),
-        );
-        },
+    body: DecoratedBox(
+      
+      position: DecorationPosition.background,
+              decoration: BoxDecoration(
+                color: Colors.white, 
+                image: DecorationImage(
+                    image: AssetImage('assets/bgi.jpg'),
+                    fit: BoxFit.cover),
+              ),
+    child: null,
     ),
+    
     );
     
   }
