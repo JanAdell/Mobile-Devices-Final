@@ -13,7 +13,7 @@ class _CreditsScreenState extends State<CreditsScreen>{
   Widget build(BuildContext context){
     return Scaffold(
       appBar: AppBar(
-        title: Text('Credits', style: TextStyle(fontSize: 50),),
+        title: Text('Credits', style: TextStyle(fontSize: 30),),
         backgroundColor: Colors.blueGrey,
         centerTitle: true,
     ),
@@ -38,7 +38,7 @@ class _CreditsScreenState extends State<CreditsScreen>{
           TextStyle(
               color: Colors.black,
               fontWeight: FontWeight.w600,
-              fontSize: 30.0,
+              fontSize: 15.0,
               
           ),
           
@@ -58,7 +58,7 @@ class _CreditsScreenState extends State<CreditsScreen>{
           TextStyle(
               color: Colors.black,
               fontWeight: FontWeight.w600,
-              fontSize: 30.0,
+              fontSize: 15.0,
               
           ),
           
@@ -74,7 +74,7 @@ class _CreditsScreenState extends State<CreditsScreen>{
           TextStyle(
               color: Colors.black,
               fontWeight: FontWeight.w600,
-              fontSize: 30.0,
+              fontSize: 15.0,
               
           ),
           
@@ -86,7 +86,7 @@ class _CreditsScreenState extends State<CreditsScreen>{
       Container(
       child: RaisedButton(
         onPressed: _launchURL,
-        child: Text('To GitHub Repository', style: TextStyle(fontSize: 40),),
+        child: Text('To GitHub Repository', style: TextStyle(fontSize: 20),),
         color: Colors.blueGrey,
         splashColor: Colors.black,
         

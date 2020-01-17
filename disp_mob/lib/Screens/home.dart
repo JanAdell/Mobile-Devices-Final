@@ -40,7 +40,7 @@ class _HomeScreenState extends State<HomeScreen>{
           TextStyle(
               color: Colors.black,
               fontWeight: FontWeight.w600,
-              fontSize: 60.0,
+              fontSize: 30.0,
               
           ),
           
@@ -51,7 +51,7 @@ class _HomeScreenState extends State<HomeScreen>{
     
       
       FlatButton(
-                    child: Text('Play', style: TextStyle(fontSize: 40),),
+                    child: Text('Play', style: TextStyle(fontSize: 30),),
                     color: Colors.blueGrey,       
                     splashColor: Colors.black,
                     padding: EdgeInsets.symmetric(vertical: 20, horizontal: 40),
@@ -65,7 +65,7 @@ class _HomeScreenState extends State<HomeScreen>{
      
       
       FlatButton(
-                    child: Text('Credits', style: TextStyle(fontSize: 40),),
+                    child: Text('Credits', style: TextStyle(fontSize: 30),),
                     color: Colors.blueGrey,       
                     splashColor: Colors.black,
                     padding: EdgeInsets.symmetric(vertical: 20, horizontal: 14),
@@ -78,10 +78,10 @@ class _HomeScreenState extends State<HomeScreen>{
                     ),    
      
       FlatButton(
-                    child: Text('Quit', style: TextStyle(fontSize: 40),),
+                    child: Text('Quit', style: TextStyle(fontSize: 30),),
                     color: Colors.blueGrey,       
                     splashColor: Colors.black,
-                    padding: EdgeInsets.symmetric(vertical: 20, horizontal: 40),
+                    padding: EdgeInsets.symmetric(vertical: 20, horizontal: 30),
         
                     onPressed: ()=>exit(0),
                     
